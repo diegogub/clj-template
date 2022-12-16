@@ -18,6 +18,9 @@
 (defn uber [_]
   (clean nil)
 
+   (b/copy-dir {:src-dirs ["src" "resources"]
+               :target-dir class-dir})
+
   (b/compile-clj {:basis     basis               ; compile clojure code
                   :src-dirs  ["src/"]
                   :class-dir jar-content})
