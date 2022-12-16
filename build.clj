@@ -5,6 +5,7 @@
 (def app-name "projname")
 (def main-ns 'projname.core)
 
+(def class-dir "target/classes")
 (def build-folder "target")
 (def jar-content (str build-folder "/classes"))
 
