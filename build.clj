@@ -2,8 +2,8 @@
   (:require [clojure.tools.build.api :as b]))
 
 (def version "0.0.1")
-(def app-name "projname")
-(def main-ns 'projname.core)
+(def app-name "##name##")
+(def main-ns '##name##.core)
 
 (def class-dir "target/classes")
 (def build-folder "target")

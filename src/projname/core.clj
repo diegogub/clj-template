@@ -1,4 +1,4 @@
-(ns projname.core
+(ns ##name##.core
   (:require [clojure.java.io :as io])
   (:gen-class))
 
