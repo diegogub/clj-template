@@ -3,3 +3,6 @@ build:
 
 repl:
 	clj -M:repl/conjure
+
+tmux:
+	./tmux.fish
